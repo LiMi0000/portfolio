@@ -5,6 +5,7 @@ import {
   About,
   Portfolio,
   Experience,
+  Contact,
 } from './components';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <Contact />
       <SocialLinks />
     </div>
   );

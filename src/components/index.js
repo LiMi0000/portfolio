@@ -4,3 +4,4 @@ export { default as SocialLinks } from './SocialLinks.jsx';
 export { default as About } from './About.jsx';
 export { default as Portfolio } from './Portfolio.jsx';
 export { default as Experience } from './Experience.jsx';
+export { default as Contact } from './Contact.jsx';
