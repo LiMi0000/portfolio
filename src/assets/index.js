@@ -14,10 +14,6 @@ export { default as angularjs } from './angularjs.png';
 export { default as mongodb } from './mongodb.png';
 export { default as gitlab } from './gitlab.png';
 // portfolio
-export { default as arrayDestruct } from './portfolio/arrayDestruct.jpg';
-export { default as installNode } from './portfolio/installNode.jpg';
-export { default as navbar } from './portfolio/navbar.jpg';
-export { default as reactParallax } from './portfolio/reactParallax.jpg';
-export { default as reactSmooth } from './portfolio/reactSmooth.jpg';
-export { default as reactWeather } from './portfolio/reactWeather.jpg';
-export { default as useState } from './portfolio/usestate.jpg';
+export { default as ytClone } from './portfolio/ytClone.jpg';
+export { default as adminDashboard } from './portfolio/adminDashboard.jpg';
+export { default as notesapp } from './portfolio/notesapp.jpg';
