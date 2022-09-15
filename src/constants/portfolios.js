@@ -11,8 +11,8 @@ export const portfolios = [
   {
     id: 1,
     src: arrayDestruct,
-    demo: 'https://google.com',
-    code: 'https://youtube.com',
+    demo: 'https://tranquil-twilight-723125.netlify.app',
+    code: 'https://github.com/LiMi0000/youtube_clone',
   },
   {
     id: 2,

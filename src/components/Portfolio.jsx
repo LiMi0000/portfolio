@@ -29,7 +29,7 @@ const Portfolio = () => {
                   href={demo}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105 text-gray-500 hover:text-white"
+                  className="w-full px-9 py-1 m-4 duration-200 hover:scale-105 text-gray-500 hover:text-white"
                 >
                   Demo
                 </a>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                   href={code}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105 text-gray-500 hover:text-white"
+                  className="w-full px-9 py-1 m-4 duration-200 hover:scale-105 text-gray-500 hover:text-white"
                 >
                   Code
                 </a>
