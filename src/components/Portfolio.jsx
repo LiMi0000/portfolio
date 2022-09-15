@@ -1,22 +1,12 @@
 import React from 'react';
 
-// import {
-//   arrayDestruct,
-//   installNode,
-//   navbar,
-//   reactParallax,
-//   reactSmooth,
-//   reactWeather,
-//   useState,
-// } from '../assets';
-
 import { portfolios } from '../constants/portfolios';
 
 const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full bg-gradient-to-b from-black to-gray-800  md:h-screen"
+      className="w-full bg-gradient-to-b from-black to-gray-800 md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center 2-full h-full">
         <div className="">
