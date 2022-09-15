@@ -1,7 +1,5 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { GrDocumentPdf } from 'react-icons/gr';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 
 export const socialLinks = [
@@ -31,7 +29,7 @@ export const socialLinks = [
         Mail <HiOutlineMail size={30} />
       </>
     ),
-    href: 'mailto:limimisini31gmail.com',
+    href: 'mailto:limimisini@hotmail.com',
   },
   {
     id: 4,
