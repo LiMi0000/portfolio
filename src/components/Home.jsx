@@ -11,19 +11,28 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full mt-20 mr-10">
+        <div className="flex flex-col justify-center h-full mt-10 mr-10">
           <h2 className="text-4xl sm:text-7xl font-bold text-white ">
-            I'm Web Developer
+            Web Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-4xl">
-            Hello, my way to programming started after high school which I was
-            studying mechanical engineering, especially technician for computer
-            leadership which means transferring a piece of metal to something
-            that clients wants through some codes that machine understand. Then
-            decided to go for programming and there started my journey, a
-            challenging year with good memories. So I just want to keep going on
-            this journey on different fields of programming to reach more
-            knowledge and build cool things for the world
+          <p className="text-gray-500 py-4 max-w-3xl">
+            I have experience working on different technologies and building
+            websites with{' '}
+            <span className="text-orange-500 font-semibold">HTML</span>,
+            <span className="text-blue-500 font-semibold"> CSS</span>,
+            <span className="text-yellow-500 font-semibold"> JAVASCRIPT</span>,
+            <span className="text-blue-800 font-semibold"> TYPESCRIPT</span>,
+            <span className="text-blue-600 font-semibold"> REACT</span> &
+            building mobile apps with{' '}
+            <span className="text-gray-300 font-semibold">React Native</span> on
+            Front-End but also I have knowledge on Back-End with
+            <span className="text-green-500 font-semibold"> NodeJS/</span>
+            <span className="text-gray-400 font-semibold">ExpressJS</span>
+            <br />
+            Currently, I'd love to work on{' '}
+            <span className="font-bold text-white">Front End</span> with
+            ReactJS/TS or <span className="font-bold text-white">Back End</span>{' '}
+            with NodeJS/ExpressJS
           </p>
 
           <div>

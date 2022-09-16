@@ -11,7 +11,7 @@ export { default as expressjs } from './expressjs.png';
 export { default as sass } from './sass.png';
 export { default as angularjs } from './angularjs.png';
 export { default as mongodb } from './mongodb.png';
-export { default as gitlab } from './gitlab.png';
+export { default as typescript } from './typescript.png';
 // portfolio
 export { default as ytClone } from './portfolio/ytClone.jpg';
 export { default as adminDashboard } from './portfolio/adminDashboard.jpg';

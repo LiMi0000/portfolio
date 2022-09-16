@@ -9,14 +9,14 @@ const Portfolio = () => {
       className="w-full bg-gradient-to-b from-black to-gray-800 md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="mt-32">
+        <div className="mt-10">
           <p className="text-4xl text-white font-bold inline border-b-2 border-gray-500">
             Portfolio
           </p>
           <p className="py-6 text-white">Check out some of my work</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-2">
           {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img

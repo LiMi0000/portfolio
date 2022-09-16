@@ -10,7 +10,7 @@ import {
   sass,
   angularjs,
   mongodb,
-  gitlab,
+  typescript,
 } from '../assets';
 
 export const technologies = [
@@ -46,44 +46,44 @@ export const technologies = [
   },
   {
     id: 6,
+    src: typescript,
+    title: 'TypeScript',
+    style: 'shadow-blue-900',
+  },
+  {
+    id: 7,
     src: node,
     title: 'NodeJS',
     style: 'shadow-green-500',
   },
   {
-    id: 7,
+    id: 8,
     src: expressjs,
     title: 'ExpressJS',
     style: 'shadow-gray-400',
   },
   {
-    id: 8,
+    id: 9,
     src: react,
     title: 'React',
     style: 'shadow-blue-600',
   },
   {
-    id: 9,
+    id: 10,
     src: angularjs,
     title: 'Angular',
     style: 'shadow-red-500',
   },
   {
-    id: 10,
+    id: 11,
     src: mongodb,
     title: 'MongoDB',
     style: 'shadow-green-500',
   },
   {
-    id: 11,
+    id: 12,
     src: github,
     title: 'Github',
     style: 'shadow-gray-500',
-  },
-  {
-    id: 12,
-    src: gitlab,
-    title: 'Gitlab',
-    style: 'shadow-orange-400',
   },
 ];
