@@ -13,7 +13,7 @@ const Navbar = () => {
         to="home"
         smooth
         duration={500}
-        className="text-5xl cursor-pointer ml-2"
+        className="animate-pulse text-5xl cursor-pointer ml-2"
       >
         Çlirim Misini
       </Link>
