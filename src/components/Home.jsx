@@ -4,6 +4,8 @@ import { HiOutlineArrowSmRight } from 'react-icons/hi';
 import { HeroImage } from '../assets';
 import { Link } from 'react-scroll';
 
+import ReactTyped from 'react-typed';
+
 const Home = () => {
   return (
     <div
@@ -13,7 +15,13 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full mt-10 mr-10">
           <h2 className=" text-4xl sm:text-7xl font-bold text-white ">
-            Web Developer
+            <ReactTyped
+              strings={['Web Developer']}
+              loop
+              typeSpeed={100}
+              backSpeed={90}
+              backDelay={2000}
+            />
           </h2>
           <p className="text-gray-500 py-4 max-w-3xl">
             I have experience working on different technologies and building
