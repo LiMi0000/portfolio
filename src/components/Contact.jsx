@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-2 border-gray-500">
-            Contact
+            Get in Touch
           </p>
           <p className="py-6">Submit the form to get in touch with me</p>
         </div>
@@ -39,7 +39,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-2 my-8 mx-auto flex items-center rounded-md hover:font-bold hover:text-white hover:scale-110 duration-200">
-              Let's talk
+              Submit
             </button>
           </form>
         </div>

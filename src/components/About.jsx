@@ -6,28 +6,62 @@ const About = () => {
       name="about"
       className="h-screen w-full bg-gradient-to-b  from-gray-800  to-black text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="">
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
+        <div className="mt-40">
           <p className="text-4xl font-bold inline border-b-2 border-gray-500">
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi
-          molestiae provident pariatur assumenda nesciunt, dolores ad
-          praesentium necessitatibus illo labore eligendi maiores quod ullam
-          accusantium, cum eaque ipsum quia nostrum fugiat! Magnam saepe facere
-          ad eum sunt nam dignissimos, numquam itaque eveniet quisquam soluta
-          magni, expedita cumque. Facilis, itaque!
+        {/* <p className="text-m mt-8">
+          In the high school i was studying mechanical engineering, especially
+          technician for computer leadership which means transferring a piece of
+          metal to something that clients wants through some codes that machine
+          understand. After that i decided for further studying to go with
+          programming and started my journey in Seavus. It was an amazing year
+          with some hard times and good times obviously, but going through ton
+          of homework and projects that we have through that year it really
+          helped us a lot learning about programming. As a junior i want to
+          start in any field to begin my journey on programming world and i'm
+          ready to work and give everything that i know with everyone i work,
+          collaborating with teams, learning more new technologies that are
+          coming up, adapting to different ways of working, meeting and
+          communicating with new people.
+        </p> */}
+        <br />
+        <p className="text-2xl font-bold text-white pb-2">Employment History</p>
+        <p className="pb-4">
+          Software Developer, Rex Solution, Skopje - January 2022 - June 2022
+        </p>
+        <p className="text-m">
+          Started working in January, which I started as a Jr Software Developer
+          especially with Front End, where after a month started working on a
+          real project, where I did the Front End part with React Native for
+          mobile applications. It was a good experience as a junior to work on a
+          team, to take the tasks, to work under pressure and have daily or
+          weekly meetings with the team to discuss about the further development
+          process of the application
         </p>
         <br />
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-          provident natus non. Repellat, consequatur voluptatem. Aliquid modi ex
-          adipisci beatae veniam fugiat earum quibusdam. Quaerat minus cum
-          cupiditate, ratione sed officiis sapiente dolorum fugit inventore?
-          Molestias accusantium placeat dignissimos excepturi nobis adipisci
-          error saepe consequuntur eos ullam? Similique, aperiam beatae?
+        <p className="text-2xl font-bold text-white pb-2">Education</p>
+        <p className="pb-4">
+          Web Developer, SEDC - Seavus Education and Development Center, Skopje
+          - November 2020 - November 2021
+        </p>
+        <p className="text-m">
+          It was definitely a challenging year but also an interesting one
+          learning new and different stuff. In the first couple of months we
+          learned front end especially HTML5, CSS3, JavaScript, working on
+          structure of web content, styling them and making them functional,
+          also worked on the project for front end part that gave me a feeling
+          on how companies work, how teams define their work on who's going to
+          do what, to work under pressure, with time limit. After that we
+          started with NodeJS, creating servers, making the front end part
+          dynamically using a NodeJs framework ExpressJS with set of features
+          for web and mobile applications. Then we learned about databases like
+          SQL, MongoDB continuing with ReactJS and AngularJS which was so good
+          to learn to build front end applications more faster. In the last
+          month we learned MEAN/MERN that helped us connect all technologies
+          that we learned in one application
         </p>
       </div>
     </div>
