@@ -2,6 +2,8 @@ import React from 'react';
 
 import { portfolios } from '../constants/portfolios';
 
+import { RiAttachment2 } from 'react-icons/ri';
+
 const Portfolio = () => {
   return (
     <div
@@ -18,31 +20,59 @@ const Portfolio = () => {
 
         <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-2">
           {portfolios.map(({ id, src, demo, code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-300 hover:scale-105"
-              />
-              <div className="flex items-center justify-center">
+            <div
+              id={id}
+              class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="/">
+                <img class="rounded-t-lg" src={src} alt="" />
+              </a>
+              <div class="p-5 flex justify-between">
                 <a
-                  href={demo}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-full px-9 py-1 m-4 duration-200 hover:scale-105 text-gray-500 hover:text-white"
+                  href={demo}
+                  class="duration-300 inline-flex items-center ml-2 py-2 px-7 text-sm font-medium text-center text-white hover:bg-blue-700 rounded-lg bg-blue-800  focus:outline-none"
                 >
                   Demo
                 </a>
                 <a
-                  href={code}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-full px-9 py-1 m-4 duration-200 hover:scale-105 text-gray-500 hover:text-white"
+                  href={demo}
+                  class="duration-300  inline-flex items-center py-2 px-4 text-sm font-medium text-center text-white  hover:text-blue-500  focus:outline-none "
                 >
-                  Code
+                  <RiAttachment2 size={20} />
+                  Github Repo
                 </a>
               </div>
             </div>
+
+            // <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            //   <img
+            //     src={src}
+            //     alt=""
+            //     className="rounded-md duration-300 hover:scale-110"
+            //   />
+            //   <div className="flex items-center justify-center">
+            //     <a
+            //       href={demo}
+            //       target="_blank"
+            //       rel="noreferrer"
+            //       className="w-full px-9 py-1 m-4 duration-200 hover:scale-105 text-gray-500 hover:text-white"
+            //     >
+            //       Demo
+            //     </a>
+            //     <a
+            //       href={code}
+            //       target="_blank"
+            //       rel="noreferrer"
+            //       className="w-full px-9 py-1 m-4 duration-200 hover:scale-105 text-gray-500 hover:text-white"
+            //     >
+            //       Code
+            //     </a>
+            //   </div>
+            // </div>
           ))}
         </div>
       </div>
