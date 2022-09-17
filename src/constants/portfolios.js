@@ -1,4 +1,4 @@
-import { ytClone, adminDashboard, notesapp } from '../assets';
+import { ytClone, adminDashboard, notesapp, amazonAPI } from '../assets';
 
 export const portfolios = [
   {
@@ -18,5 +18,11 @@ export const portfolios = [
     src: notesapp,
     demo: 'https://classy-nasturtium-e1d4da.netlify.app',
     code: 'https://github.com/LiMi0000/notes-app',
+  },
+  {
+    id: 4,
+    src: amazonAPI,
+    demo: 'https://rapidapi.com/limimisini31-uejGyBRXc5u/api/limi-amazon-data-scraper',
+    code: 'https://github.com/LiMi0000/amazon_api',
   },
 ];

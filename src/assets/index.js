@@ -16,3 +16,4 @@ export { default as typescript } from './typescript.png';
 export { default as ytClone } from './portfolio/ytClone.jpg';
 export { default as adminDashboard } from './portfolio/adminDashboard.jpg';
 export { default as notesapp } from './portfolio/notesapp.jpg';
+export { default as amazonAPI } from './portfolio/amazonAPI.jpg';
