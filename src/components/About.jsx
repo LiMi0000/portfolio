@@ -1,13 +1,15 @@
 import React from 'react';
 
+import { ytClone, amazonAPI } from '../assets';
+
 const About = () => {
   return (
     <div
       name="about"
-      className="md:h-screen w-full bg-gradient-to-b  from-gray-800  to-black text-white"
+      className="md:h-screen w-full bg-gradient-to-b flex justify-evenly from-gray-800  to-black text-white"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
-        <div className="mt-20">
+      <div className="max-w-screen-lg flex flex-col justify-center w-full h-full">
+        <div className="mt-16">
           <p className="text-4xl font-bold inline border-b-2 border-gray-500">
             About
           </p>
@@ -48,6 +50,22 @@ const About = () => {
           month we learned MEAN/MERN that helped us connect all technologies
           that we learned in one application
         </p>
+      </div>
+      <div className="h-full flex flex-col items-center justify-center">
+        <div className="py-10">
+          <img
+            src={ytClone}
+            alt="yt"
+            className="max-w-md hover:scale-150 duration-300"
+          />
+        </div>
+        <div>
+          <img
+            src={amazonAPI}
+            alt="amazon"
+            className="max-w-md hover:scale-150 duration-300"
+          />
+        </div>
       </div>
     </div>
   );

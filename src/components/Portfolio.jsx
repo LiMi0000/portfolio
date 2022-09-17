@@ -24,15 +24,14 @@ const Portfolio = () => {
               id={id}
               class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
             >
-              <a href="/">
-                <img class="rounded-t-lg" src={src} alt="" />
-              </a>
+              <img class="rounded-t-lg" src={src} alt="" />
+
               <div class="p-5 flex justify-between">
                 <a
                   target="_blank"
                   rel="noreferrer"
                   href={demo}
-                  class="duration-300 inline-flex items-center ml-2 py-2 px-7 text-sm font-medium text-center text-white hover:bg-blue-700 rounded-lg bg-blue-800  focus:outline-none"
+                  class="duration-300 inline-flex items-center ml-2 py-2 px-7 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-500  focus:outline-none"
                 >
                   Demo
                 </a>
