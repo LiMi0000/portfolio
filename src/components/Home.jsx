@@ -26,7 +26,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-3xl">
             I have experience working on different technologies and building
             websites with
-            <span className="text-orange-500 font-semibold">HTML</span>,
+            <span className="text-orange-500 font-semibold"> HTML</span>,
             <span className="text-blue-500 font-semibold"> CSS</span>,
             <span className="text-yellow-500 font-semibold"> JAVASCRIPT</span>,
             <span className="text-blue-800 font-semibold"> TYPESCRIPT</span>,

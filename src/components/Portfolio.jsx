@@ -22,24 +22,24 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, demo, code }) => (
             <div
               id={id}
-              class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+              className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
             >
-              <img class="rounded-t-lg" src={src} alt="" />
+              <img className="rounded-t-lg" src={src} alt="" />
 
-              <div class="p-5 flex justify-between">
+              <div className="p-5 flex justify-between">
                 <a
                   target="_blank"
                   rel="noreferrer"
                   href={demo}
-                  class="duration-300 inline-flex items-center ml-2 py-2 px-7 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-500  focus:outline-none"
+                  className="duration-300 inline-flex items-center ml-2 py-2 px-7 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-500 "
                 >
                   Demo
                 </a>
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href={demo}
-                  class="duration-300  inline-flex items-center py-2 px-4 text-sm font-medium text-center text-white  hover:text-blue-500  focus:outline-none "
+                  href={code}
+                  className="duration-300  inline-flex items-center py-2 px-4 text-sm font-medium text-center text-white  hover:text-blue-500   "
                 >
                   <RiAttachment2 size={20} />
                   Github Repo

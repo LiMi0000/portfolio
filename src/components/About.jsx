@@ -51,7 +51,7 @@ const About = () => {
           that we learned in one application
         </p>
       </div>
-      <div className="h-full flex flex-col items-center justify-center">
+      {/* <div className="h-full flex flex-col items-center justify-center">
         <div className="py-10">
           <img
             src={ytClone}
@@ -66,7 +66,7 @@ const About = () => {
             className="max-w-md hover:scale-150 duration-300"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
