@@ -17,3 +17,5 @@ export { default as ytClone } from './portfolio/ytClone.jpg';
 export { default as adminDashboard } from './portfolio/adminDashboard.jpg';
 export { default as notesapp } from './portfolio/notesapp.jpg';
 export { default as amazonAPI } from './portfolio/amazonAPI.jpg';
+export { default as cpd } from './portfolio/cpd.jpg';
+export { default as diploma } from './portfolio/diploma.jpg';

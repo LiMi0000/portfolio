@@ -49,21 +49,13 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <button
-          // id="to-top-button"
-          // onclick="goToTop()"
-          // title="Go To Top"
-          className="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold"
-        >
-          Up
-        </button>
-        {/* <div class="relative w-full">
+        <div class="relative w-full">
           <div class="absolute bottom-0 right-0 h-16 w-16 text-center cursor-pointer animate-bounce">
             <Link to="home" smooth duration={500}>
               <BsArrowUpCircle size={40} />
             </Link>
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );
