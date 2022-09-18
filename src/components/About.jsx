@@ -5,12 +5,6 @@ import { diploma, cpd } from '../assets';
 // w-full bg-gradient-to-b  flex justify-evenly from-gray-800  to-black text-white md:h-screen
 // max-w-screen-lg flex flex-col justify-center h-full
 
-import { HiOutlineArrowSmRight } from 'react-icons/hi';
-import { HeroImage } from '../assets';
-import { Link } from 'react-scroll';
-
-import ReactTyped from 'react-typed';
-
 const About = () => {
   return (
     <div
