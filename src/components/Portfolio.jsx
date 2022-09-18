@@ -13,9 +13,13 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="mt-10">
           <p className="text-4xl text-white font-bold inline border-b-2 border-gray-500">
-            Portfolio
+            Check out some of my personal projects!
           </p>
-          <p className="py-6 text-white">Check out some of my work</p>
+          <p className="py-6 text-white">
+            Need something more specific? <br /> We can have a call where I can
+            explain some of the features <br /> I have integrated in which are
+            confidential and I won't be able to present at this time!
+          </p>
         </div>
 
         <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-2">
