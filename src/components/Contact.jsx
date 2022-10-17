@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Link } from 'react-scroll';
 
 import { BsArrowUpCircle } from 'react-icons/bs';
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = () => {
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
   return (
     <>
       <div
@@ -33,32 +43,41 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Enter your name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
               <input
                 className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
                 type="text"
                 name="email"
                 placeholder="Enter your email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <textarea
                 name="message"
                 placeholder="Enter your message..."
                 rows="10"
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               ></textarea>
-              <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-2 my-8 mx-auto flex items-center rounded-md hover:font-bold hover:text-white hover:scale-110 duration-200">
+              <button
+                onClick={handleSubmit}
+                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-2 my-8 mx-auto flex items-center rounded-md hover:font-bold hover:text-white hover:scale-110 duration-200"
+              >
                 Submit
               </button>
             </form>
           </div>
         </div>
-        <div class="relative w-full">
-          <div class="absolute bottom-0 right-0 h-16 w-16 text-center cursor-pointer animate-bounce">
+        {/* <div class="relative">
+          <div class="absolute bottom-5 right-10 text-center cursor-pointer animate-bounce">
             <Link to="home" smooth duration={500}>
               <BsArrowUpCircle size={40} />
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
