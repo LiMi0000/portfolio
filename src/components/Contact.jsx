@@ -5,16 +5,6 @@ import { Link } from 'react-scroll';
 import { BsArrowUpCircle } from 'react-icons/bs';
 
 const Contact = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = () => {
-    setName('');
-    setEmail('');
-    setMessage('');
-  };
-
   return (
     <>
       <div
@@ -43,29 +33,23 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Enter your name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                onChange={(e) => e.target.value}
               />
               <input
                 className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
                 type="text"
                 name="email"
                 placeholder="Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(e) => e.target.value}
               />
               <textarea
                 name="message"
                 placeholder="Enter your message..."
                 rows="10"
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
+                onChange={(e) => e.target.value}
               ></textarea>
-              <button
-                onClick={handleSubmit}
-                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-2 my-8 mx-auto flex items-center rounded-md hover:font-bold hover:text-white hover:scale-110 duration-200"
-              >
+              <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-2 my-8 mx-auto flex items-center rounded-md hover:font-bold hover:text-white hover:scale-110 duration-200">
                 Submit
               </button>
             </form>
