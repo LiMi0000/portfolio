@@ -28,7 +28,11 @@ const Portfolio = () => {
               id={id}
               className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
             >
-              <img className="rounded-t-lg" src={src} alt="" />
+              <img
+                className="rounded-t-lg hover:scale-125 hover:rounded-lg duration-300"
+                src={src}
+                alt=""
+              />
 
               <div className="p-5 flex justify-between">
                 <a

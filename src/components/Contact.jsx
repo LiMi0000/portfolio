@@ -34,6 +34,7 @@ const Contact = () => {
                 name="name"
                 placeholder="Enter your name"
                 onChange={(e) => e.target.value}
+                required
               />
               <input
                 className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
@@ -41,6 +42,7 @@ const Contact = () => {
                 name="email"
                 placeholder="Enter your email"
                 onChange={(e) => e.target.value}
+                required
               />
               <textarea
                 name="message"
@@ -48,6 +50,7 @@ const Contact = () => {
                 rows="10"
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
                 onChange={(e) => e.target.value}
+                required
               ></textarea>
               <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-2 my-8 mx-auto flex items-center rounded-md hover:font-bold hover:text-white hover:scale-110 duration-200">
                 Submit
